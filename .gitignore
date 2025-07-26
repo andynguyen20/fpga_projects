@@ -1,0 +1,12 @@
+# Ignore Vivado generated files
+*.jou
+*.log
+*.wdb
+*.backup
+*.tmp
+*.dcp
+*.runs/
+*.xsim/
+*.cache/
+*.hw/
+.Xil/
