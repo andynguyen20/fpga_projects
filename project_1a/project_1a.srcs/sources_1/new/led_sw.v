@@ -25,6 +25,6 @@ module led_sw(
     input [11:0] sw
     );
     
-    assign led = sw;
+    assign {led[0], led[1], led[2], led[3], led[4], led[5], led[6], led[7], led[8], led[9], led[10], led[11]} = sw;
     
 endmodule
