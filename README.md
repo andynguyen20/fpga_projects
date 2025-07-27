@@ -10,4 +10,6 @@
 * [**Project 1c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1c)
   * Reversing order of switches to LED from project 1b
 * [**Project 1d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1a)
-  * Illuminating seven-segment display using buttons for anode display and switches for segments of sseg
+  * Driving an RGB LED using pushbuttons
+  * [**Project 1d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1a)
+  * Driving an RGB LED using pushbuttons and a "Master ON/OFF" switch
