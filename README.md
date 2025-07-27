@@ -17,3 +17,10 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   * Driving an RGB LED using pushbuttons
 * [**Project 1f**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1f)
   * Driving an RGB LED using pushbuttons and a "Master ON/OFF" switch
+
+## Project 2 
+* [**Project 2**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2)
+  * Reverse engineering bit file on FPGA and creating truth table to simulate SOP duplicate circuit
+* [**Project 2a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2a)
+  * Creating POS duplicate circuit from truth table
+
