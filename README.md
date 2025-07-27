@@ -37,4 +37,5 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
       * The Oil Temperature is too high and the Oil Level is too low
       * The Coolant and Oil Temperatures are too high at the same time
       * The Coolant and Oil levels are too low at the same time that the Coolant Temperature is too high and the Oil Temperature is OK.
-
+* [**Project 2d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2d)
+  * Illuminating an LED when exactly two of the first four switches are set to "1" and illuminating a second LED when exactly 3 of the next four switches are set to "0"
