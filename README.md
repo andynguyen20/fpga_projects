@@ -1,5 +1,7 @@
 ## FPGA Projects
 
+
+
 ## Project 1
 * [**Project 1**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1)
   * Navigating Vivado design and contraint files and getting familiar with connecting to FPGA 
@@ -9,7 +11,9 @@
   * Creating Verilog and constraint files to map to FPGA using all switches and LEDs above it
 * [**Project 1c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1c)
   * Reversing order of switches to LED from project 1b
-* [**Project 1d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1a)
+* [**Project 1d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1d)
+  * Illuminating seven-segment display using buttons for anode display and switches for segments of sseg
+* [**Project 1e**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1e)
   * Driving an RGB LED using pushbuttons
-* [**Project 1d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1a)
+* [**Project 1f**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1f)
   * Driving an RGB LED using pushbuttons and a "Master ON/OFF" switch
