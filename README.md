@@ -1,6 +1,6 @@
 ## FPGA Projects
 
-
+These are my FPGA projects using the Xilinx XC7007S ZYNQ SoC where I learn to use Vivado and implement digital designs on an FPGA
 
 ## Project 1
 * [**Project 1**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1)
