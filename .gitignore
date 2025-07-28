@@ -16,8 +16,7 @@
 *.wdb
 *.pb
 *.tcl
-*.dcp
-*.xpr          
+*.dcp     
 *.xci
 *.project
 *.sdk
