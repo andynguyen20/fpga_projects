@@ -16,7 +16,16 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
+// * Illuminates a yellow light whenever any of the following are true:
+//  * Only the Coolant Level is low
+//  * Only the Oil Level is low
+//  * The Oil Temperature is too high and the Oil Level is OK
+//  * The Coolant Temperature is too high and the Oil Level is too low
+// * Illuminates a Red light (using the other LED package) whenever any of the following are true:
+//  * The Coolant temperature is too high and the Coolant level is too low
+//  * The Oil Temperature is too high and the Oil Level is too low
+//  * The Coolant and Oil Temperatures are too high at the same time
+//  * The Coolant and Oil levels are too low at the same time that the Coolant Temperature is too high and the Oil Temperature is OK.
 //////////////////////////////////////////////////////////////////////////////////
 
 

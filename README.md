@@ -1,6 +1,6 @@
 ## FPGA Projects
 
-These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to use Vivado and implement digital designs on the FPGA fabric.
+These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to use Vivado, write testbenches, and implement digital designs on the FPGA fabric.
 
 ## Project 1
 * [**Project 1**](https://github.com/andynguyen20/fpga_projects/tree/main/project_1)
@@ -26,16 +26,12 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 2b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2b)
   * Reverse engineering fourth circuit from [**bit file**](https://github.com/andynguyen20/fpga_projects/tree/main/Blackboard_p2) on FPGA and creating truth table to simulate karnaugh map simplified circuit
 * [**Project 2c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2c)
-  * Creating a brand new circuit that follows these rules:
-    * Illuminates a yellow light whenever any of the following are true:
-      * Only the Coolant Level is low
-      * Only the Oil Level is low
-      * The Oil Temperature is too high and the Oil Level is OK
-      * The Coolant Temperature is too high and the Oil Level is too low
-    * Illuminates a Red light (using the other LED package) whenever any of the following are true:
-      * The Coolant temperature is too high and the Coolant level is too low
-      * The Oil Temperature is too high and the Oil Level is too low
-      * The Coolant and Oil Temperatures are too high at the same time
-      * The Coolant and Oil levels are too low at the same time that the Coolant Temperature is too high and the Oil Temperature is OK.
+  * Creating a new circuit that flashes yellow or red depending on specification (specification is defined in comments of source file)
 * [**Project 2d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2d)
   * Illuminating an LED when exactly two of the first four switches are set to "1" and illuminating a second LED when exactly 3 of the next four switches are set to "0"
+
+## Project 3
+* [**Project 3**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3)
+  * Designing a five-way light switch using truth tables and K-maps before testing with FPGA
+* [**Project 3a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3a)
+  * Designing a majority-of-five circuit, writing testbenches and simulating waveform diagrams before testing with FPGA
