@@ -35,3 +35,11 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   * Designing a five-way light switch using truth tables and K-maps before testing with FPGA
 * [**Project 3a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3a)
   * Designing a majority-of-five circuit, writing testbenches and simulating waveform diagrams before testing with FPGA
+* [**Project 3b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3b)
+  * Designing a temperature indicator, writing testbenches and simulating waveform diagrams before testing with FPGA
+* [**Project 3c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3c)
+  * Designing a circuit for dashboard indicator (specification in source file) and testing with FPGA
+* [**Project 3d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3d)
+  * Implementing a circuit that illuminates an LED when an odd number of switches are turned on and another LED when an even number of switches are turned on
+* [**Project 3e**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3e)
+  * Enhanced Project 3d with an illuminated led when an odd number of switches are turned on and an even number of pushbuttons are pressed 
