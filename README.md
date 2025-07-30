@@ -3,8 +3,8 @@
 These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to use Vivado, write testbenches, and implement digital designs on the FPGA fabric.
 
 ## File Formatting
-* 📁 constr_1/new       → 📄 .xdc  (xdc files written in TCL mapping the Verilog design to FPGA)
-* 📁 sims_1/new         → 📄 .v  (testbench files)
+* 📁 constr_1/new       → 📄 .xdc  (xdc constraint files written in TCL mapping the Verilog design to FPGA)
+* 📁 sims_1/new         → 📄 .v  (verilog testbench files for waveform simulation)
 * 📁 sources_1/new      → 📄 .v  (verilog design source files)
 
 
