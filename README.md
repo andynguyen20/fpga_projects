@@ -50,7 +50,7 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 3e**](https://github.com/andynguyen20/fpga_projects/tree/main/project_3e/project_3e.srcs)
   * Enhanced Project 3d with an illuminated led when an odd number of switches are turned on and an even number of pushbuttons are pressed 
 
-  ## Project 4
+## Project 4
 * [**Project 4**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4/project_4.srcs)
   * Design and simulate an 8:1 multiplexor using three push buttons as select inputs, eight slide switches as data input signals, and connect the output to a green LED
 * [**Project 4a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4a/project_4a.srcs)
