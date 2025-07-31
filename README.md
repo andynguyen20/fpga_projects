@@ -65,5 +65,5 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 4e**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4e/project_4e.srcs)
   * Implement a 12:1 1-bit multiplexor where the output should be connected to a green LED. The mux should turn on a red LED if the select input is out of range.
 * [**Project 4f**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4f/project_4f.srcs)
-  * Create a four input, one output Verilog circuit that uses a 4:1 behavioral multiplexor. Connect the multiplexor output to an LED, and connect the four inputs in such a way that minterms 3, 4, 6, 8, 9, 10 and 13 cause the LED to illuminate.
+  * Create a four input, one output Verilog circuit that uses a 4:1 behavioral multiplexor where minterms 3, 4, 6, 8, 9, 10 and 13 cause the LED to illuminate.
   
