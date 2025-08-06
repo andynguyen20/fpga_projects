@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/06/2025 11:39:47 AM
+// Create Date: 08/06/2025 04:25:21 PM
 // Design Name: 
-// Module Name: d_latch_tb
+// Module Name: d_e_register
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,28 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module d_latch_tb;
-
-    reg D; 
-    reg G;
-    wire Q;
-    wire Qn;
+module d_e_register(
+    input [7:0] D,
+    input E, 
+    input clk, 
+    output reg [7:0] Q
+    );
     
-    d_latch cut(.D(D), .G(G), .Q(Q), .Qn(Qn));
-    
-    initial begin
-    D = 0;
-    G = 0;
-
-    #100 D = 1;
-    #100 D = 0;
-    #100 G = 1;
-    #100 G = 0;
-    #4   D = 1;
-         G = 1;
-    #1   G = 0; //driving into metastability
-    #100;
-end
-    
+    always @(posedge clk) begin
+        if(E == 1) 
+            Q = D;
+        else 
+            Q = Q; 
+     end
     
 endmodule

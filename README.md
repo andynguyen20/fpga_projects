@@ -66,4 +66,33 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   * Implement a 12:1 1-bit multiplexor where the output should be connected to a green LED. The mux should turn on a red LED if the select input is out of range.
 * [**Project 4f**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4f/project_4f.srcs)
   * Create a four input, one output Verilog circuit that uses a 4:1 behavioral multiplexor where minterms 3, 4, 6, 8, 9, 10 and 13 cause the LED to illuminate.
+
+## Project 5
+* [**Project 5**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5/project_5.srcs)
+  * Design and simulate a Mux and Demux circuit using the Vivado IP integrator to create block designs and implement on FPGA
+* [**Project 5a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5a/project_5a.srcs)
+  * Design and implement Single Digit Seven-Segment Display Decoder
+* [**Project 5b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5b/project_5b.srcs)
+  * Design and Implement Two-Digit Seven-Segment Display Decoder Using a Button
+* [**Project 5c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5c/project_5c.srcs)
+  * Design and Implement Two-Digit Seven-Segment Display Decoder Using a Counter
+
+## Project 6
+* [**Project 6**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6/project_6.srcs)
+  * Illustrate the formation of a glitch in the simulator 
+* [**Project 6a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6a/project_6a.srcs)
+  * Change the OR Gate Delay and resimulate
+* [**Project 6b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6b/project_6b.srcs)
+  * Change the Delay of All gates and resimulate
+
+## Project 7
+* [**Project 7**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7/project_7.srcs)
+  * Implement and simulate a NAND basic cell SR latch with unstable condition "meta-stability" in waveform
+* [**Project 7a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7a/project_7a.srcs)
+  * Implement and simulate a NOR basic cell SR latch with unstable condiiton "meta-stability" in waveform
+* [**Project 7b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7b/project_7b.srcs)
+  * Design and simulate a D-Latch with unstable condition "meta-stabibility" in waveform
+
+  
+  
   
