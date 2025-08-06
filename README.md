@@ -92,7 +92,8 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   * Implement and simulate a NOR basic cell SR latch with unstable condiiton "meta-stability" in waveform
 * [**Project 7b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7b/project_7b.srcs)
   * Design and simulate a D-Latch with unstable condition "meta-stabibility" in waveform
-
+* [**Project 7c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
+  * Design and implement Parallel In Parallel Out (PIPO) Shift Register
   
   
   
