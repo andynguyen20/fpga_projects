@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 08:32:22 AM
+// Create Date: 08/07/2025 08:36:24 AM
 // Design Name: 
-// Module Name: d_register
+// Module Name: counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,14 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module d_register(
-    input D, 
+module counter(
     input clk,
-    output reg Q
+    output reg [25:0] cntr
     );
     
-    always @(posedge clk) begin 
-        Q <= D;
-    end
+    
+    always @ (posedge(clk))
+        cntr <= cntr + 1;
     
 endmodule
