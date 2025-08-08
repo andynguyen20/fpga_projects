@@ -54,7 +54,7 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 4**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4/project_4.srcs)
   * Design, simulate, and implement an 8:1 multiplexor
 * [**Project 4a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4a/project_4a.srcs)
-  * Implement a 4:1 3-bit bus multiplexor on FPGA using 12 switches as data inputs, 2 buttons as select inputs, and three LEDs as the output.
+  * Design and implement a 4:1 3-bit bus multiplexor
   * Design and simulate an 8:1 8-bit bus multiplexor
 * [**Project 4b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_4b/project_4b.srcs)
   * Design and implement a decoder circuit.
