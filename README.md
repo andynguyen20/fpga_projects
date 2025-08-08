@@ -87,13 +87,24 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 
 ## Project 7
 * [**Project 7**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7/project_7.srcs)
-  * Implement and simulate a NAND basic cell SR latch with unstable condition "meta-stability" in waveform
+  * Implement and simulate a NAND basic cell SR latch with unstable condition in waveform
 * [**Project 7a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7a/project_7a.srcs)
-  * Implement and simulate a NOR basic cell SR latch with unstable condiiton "meta-stability" in waveform
+  * Implement and simulate a NOR basic cell SR latch with unstable condiiton in waveform
 * [**Project 7b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7b/project_7b.srcs)
-  * Design and simulate a D-Latch with unstable condition "meta-stabibility" in waveform
+  * Design and simulate a D-Latch with unstable condition in waveform
 * [**Project 7c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
   * Design and implement Parallel In Parallel Out (PIPO) Shift Register
   
+  ## Project 8
+* [**Project 8**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8/project_8.srcs)
+  * Design a clock divider based on an asynchronous counter
+* [**Project 8a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7a/project_7a.srcs)
+  * Design a clock divider based on a synchronous binary counter
+* [**Project 8b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7b/project_7b.srcs)
+  * Design a Counter Based Clock Divider
+* [**Project 8c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
+  * Create a BCD Counter
+* [**Project 8d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8d/project_8d.srcs)
+  * Create a 4-digit BCD Counter
   
   
