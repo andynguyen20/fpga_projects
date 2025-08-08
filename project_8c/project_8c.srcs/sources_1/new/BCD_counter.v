@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:16:11 PM
+// Create Date: 08/07/2025 08:01:23 PM
 // Design Name: 
-// Module Name: clock_divider_tb
+// Module Name: BCD_counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,23 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider_tb;
-
-    reg clk;
-    reg rst;
-    wire led;
-
-    clock_divider uut(.clk(clk), .rst(rst), .led(led));
+module BCD_counter(
+    input rst,
+    input clk,
+    output [6:0] sseg,
+    output [3:0] anode
+    );
     
-    always 
-    #5 clk = ~clk;
+    wire w1;
+    wire [3:0] count;
     
-    initial begin
-    clk = 0;     
-    rst = 1;    
-
-    #10 rst = 0; 
-
-    #100;        
-end
-
-
+    clock_divider dvdr(.clk(clk), .rst(rst), .clk_dvdr(w1));
+    
+    counter cntr(.clk(w1), .count(count));
+    
+    decoder dec(.I(count), .sseg(sseg));
+    
+    assign anode = 4'b1110;
+    
+    
 endmodule

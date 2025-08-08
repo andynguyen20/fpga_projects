@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:16:11 PM
+// Create Date: 08/07/2025 08:39:50 PM
 // Design Name: 
-// Module Name: clock_divider_tb
+// Module Name: decoder_2_4
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider_tb;
-
-    reg clk;
-    reg rst;
-    wire led;
-
-    clock_divider uut(.clk(clk), .rst(rst), .led(led));
+module decoder_2_4(
+    input [1:0] count,
+    output reg [3:0] anode
+    );
     
-    always 
-    #5 clk = ~clk;
+    always @(*) begin   
+        case(count) 
+            2'b00: anode = 4'b1110;
+            2'b01: anode = 4'b1101;
+            2'b10: anode = 4'b1011;
+            2'b11: anode = 4'b0111;
+        endcase
+    end
     
-    initial begin
-    clk = 0;     
-    rst = 1;    
-
-    #10 rst = 0; 
-
-    #100;        
-end
-
-
 endmodule

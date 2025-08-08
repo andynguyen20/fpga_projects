@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:16:11 PM
+// Create Date: 08/07/2025 08:42:38 PM
 // Design Name: 
-// Module Name: clock_divider_tb
+// Module Name: two_bit_counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider_tb;
-
-    reg clk;
-    reg rst;
-    wire led;
-
-    clock_divider uut(.clk(clk), .rst(rst), .led(led));
+module two_bit_counter(
+    input clk,
+    output reg [1:0] count
+    );
     
-    always 
-    #5 clk = ~clk;
+    always @(posedge clk) begin
+        count <= count + 1;
+    end
     
-    initial begin
-    clk = 0;     
-    rst = 1;    
-
-    #10 rst = 0; 
-
-    #100;        
-end
-
-
 endmodule
+

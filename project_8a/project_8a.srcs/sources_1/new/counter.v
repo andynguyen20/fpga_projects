@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:16:11 PM
+// Create Date: 08/07/2025 05:57:01 PM
 // Design Name: 
-// Module Name: clock_divider_tb
+// Module Name: counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider_tb;
-
-    reg clk;
-    reg rst;
-    wire led;
-
-    clock_divider uut(.clk(clk), .rst(rst), .led(led));
+module counter(
+    input clk, 
+    input rst,
+    input ce,
+    output reg [3:0] counterout
+    );
     
-    always 
-    #5 clk = ~clk;
-    
-    initial begin
-    clk = 0;     
-    rst = 1;    
-
-    #10 rst = 0; 
-
-    #100;        
+ always @ (posedge(clk), posedge(rst))
+ begin
+     if (rst) counterout <= 0;
+     else if (ce) counterout <= counterout + 1;
 end
-
-
 endmodule

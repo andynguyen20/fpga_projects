@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:16:11 PM
+// Create Date: 08/07/2025 05:58:44 PM
 // Design Name: 
-// Module Name: clock_divider_tb
+// Module Name: wrapper
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,25 +20,20 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider_tb;
-
-    reg clk;
-    reg rst;
-    wire led;
-
-    clock_divider uut(.clk(clk), .rst(rst), .led(led));
+module wrapper(
+    input clk,
+    input rst1,
+    input rst2,
+    input ce,
+    output led,
+    output [3:0] led1
+    );
     
-    always 
-    #5 clk = ~clk;
+    wire led_int;
     
-    initial begin
-    clk = 0;     
-    rst = 1;    
-
-    #10 rst = 0; 
-
-    #100;        
-end
-
-
+    clock_divider cut( .clk(clk), .rst(rst1), .led(led_int));
+    assign led = led_int;
+    
+    counter cut1(.clk(led_int), .rst(rst2), .ce(ce), .counterout(led1));
+    
 endmodule

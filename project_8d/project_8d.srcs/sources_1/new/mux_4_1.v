@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 05:03:46 PM
+// Create Date: 08/07/2025 08:33:51 PM
 // Design Name: 
-// Module Name: clock_divider
+// Module Name: mux_4_1
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,21 +20,24 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module clock_divider(
-    input clk, 
-    input rst,
-    output led
+module mux_4_1(
+    input [3:0] I0, 
+    input [3:0] I1,
+    input [3:0] I2,
+    input [3:0] I3, 
+    input [2:0] sel,
+    output reg [3:0] Y
     );
     
-    reg [27:0] clk_div;
+    always @(*) begin
+        case(sel) 
+            2'b00: Y = I0;
+            2'b01: Y = I1; 
+            2'b10: Y = I2;
+            2'b11: Y = I3;
+            default Y = 4'b0000;
+        endcase
+    end
     
-    always @(posedge (clk), posedge(rst)) begin
-        if (rst)
-            clk_div <= 28'b0;
-        else
-            clk_div <= clk_div +1;
-    end 
-    
-    assign led = clk_div[27];
     
 endmodule
