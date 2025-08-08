@@ -69,7 +69,7 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 
 ## Project 5
 * [**Project 5**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5/project_5.srcs)
-  * Design and simulate a Mux and Demux circuit using the Vivado IP integrator to create block designs and implement on FPGA
+  * Design, implement and simulate a Mux and Demux circuit using the Vivado IP integrator to create block designs
 * [**Project 5a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5a/project_5a.srcs)
   * Design and implement Single Digit Seven-Segment Display Decoder
 * [**Project 5b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_5b/project_5b.srcs)
@@ -79,11 +79,11 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 
 ## Project 6
 * [**Project 6**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6/project_6.srcs)
-  * Illustrate the formation of a glitch in the simulator 
+  * Design and simulate the formation of a glitch
 * [**Project 6a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6a/project_6a.srcs)
-  * Change the OR Gate Delay and resimulate
+  * Change the OR Gate Delay from Project 6 and resimulate a glitch
 * [**Project 6b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_6b/project_6b.srcs)
-  * Change the Delay of All gates and resimulate
+  * Change the Delay of All gates in Project 6 and resimulate a glitch
 
 ## Project 7
 * [**Project 7**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7/project_7.srcs)
@@ -94,17 +94,21 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   * Design and simulate a D-Latch with unstable condition in waveform
 * [**Project 7c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
   * Design and implement Parallel In Parallel Out (PIPO) Shift Register
-  
+* [**Project 7d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7d/project_7d.srcs)
+  * Design and implement Parallel In Serial Out (PISO) Shift Register
+* [**Project 7e**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7e/project_7e.srcs)
+  * Design and implement Serial In Parallel Out (SIPO) Shift Register
+
 ## Project 8
 * [**Project 8**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8/project_8.srcs)
-  * Design a clock divider based on an asynchronous counter
-* [**Project 8a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7a/project_7a.srcs)
-  * Design a clock divider based on a synchronous binary counter
-* [**Project 8b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7b/project_7b.srcs)
-  * Design a Counter Based Clock Divider
-* [**Project 8c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
-  * Create a BCD Counter
+  * Design a clock divider based on an asynchronous counter toggling below 1Hz
+* [**Project 8a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8a/project_8a.srcs)
+  * Design a clock divider based on a synchronous binary counter toggling at .5Hz
+* [**Project 8b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8b/project_8b.srcs)
+  * Design a Counter Based Clock Divider driven by a 1Hz clock using two clock dividers 
+* [**Project 8c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8c/project_8c.srcs)
+  * Create and implement a BCD Counter driven by a 1Hz clock using a clock divider
 * [**Project 8d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8d/project_8d.srcs)
-  * Create a 4-digit BCD Counter
+  * Create and implement a 4-digit BCD Counter driven by a 1KHz clock using a clock divider
   
   
