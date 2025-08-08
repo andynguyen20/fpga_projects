@@ -95,7 +95,7 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 7c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7c/project_7c.srcs)
   * Design and implement Parallel In Parallel Out (PIPO) Shift Register
   
-  ## Project 8
+## Project 8
 * [**Project 8**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8/project_8.srcs)
   * Design a clock divider based on an asynchronous counter
 * [**Project 8a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_7a/project_7a.srcs)
