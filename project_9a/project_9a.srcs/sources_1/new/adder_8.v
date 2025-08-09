@@ -26,13 +26,14 @@ module adder_8(
     input Cin,
     output [7:0] S,
     output reg overflow,
-    output reg neg
+    output reg neg,
+    output Cout
     );
     
-    assign S = A + B + Cin;
+    assign {Cout, S} = A + B + Cin;
     
     always @(*) begin
-        if (A[7] == 0 && B[7] == 0 && S[7] == 1)
+          if (A[7] == 0 && B[7] == 0 && S[7] == 1)
             overflow = 1'b1;
         else if (A[7] == 1 && B[7] == 1 && S[7] == 0)
             overflow = 1'b1;

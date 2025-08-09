@@ -48,7 +48,8 @@ module adder_subtractor1(
     inverter_8 inv1(.in(B_int), .inv(sub), .out(B_int1));
     
     wire [7:0] S;
-    adder_8 A1(.A(A_int), .B(B_int1), .Cin(sub), .S(S), .overflow(overflow), .neg(neg));
+    wire Cout;
+    adder_8 A1(.A(A_int), .B(B_int1), .Cin(sub), .S(S), .overflow(overflow), .Cout(Cout), .neg(neg));
     
     
     wire count;
