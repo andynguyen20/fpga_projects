@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/09/2025 09:24:15 AM
+// Create Date: 08/09/2025 10:42:43 AM
 // Design Name: 
-// Module Name: register_8
+// Module Name: mux_2_1_7
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,19 +20,19 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module register_8(
-    input [7:0] D,
-    input En,
-    input rst,
-    input clk,
-    output reg [7:0] Q
+module mux_2_1_7(
+    input [6:0] I0,
+    input [6:0] I1,
+    input sel,
+    output reg [6:0] Y
     );
     
-    always @(posedge (clk) or posedge (rst)) begin
-        if (rst == 1) 
-            Q <= {8{1'b0}};
-        else if (En)
-            Q <= D;
+    always @(*) begin
+        case(sel)
+            1'b0: Y = I0;
+            1'b1: Y = I1;
+        endcase
     end
+    
     
 endmodule

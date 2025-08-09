@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/09/2025 09:24:15 AM
+// Create Date: 08/09/2025 09:31:58 AM
 // Design Name: 
-// Module Name: register_8
+// Module Name: inverter_8
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,19 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module register_8(
-    input [7:0] D,
-    input En,
-    input rst,
-    input clk,
-    output reg [7:0] Q
+module inverter_8(
+    input [7:0] in,
+    input inv,
+    output reg [7:0] out
     );
     
-    always @(posedge (clk) or posedge (rst)) begin
-        if (rst == 1) 
-            Q <= {8{1'b0}};
-        else if (En)
-            Q <= D;
+    always @(*) begin
+        if (inv)
+            out = ~in;
+        else
+            out = in;
     end
+    
     
 endmodule
