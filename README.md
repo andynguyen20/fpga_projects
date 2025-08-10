@@ -111,4 +111,26 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 * [**Project 8d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_8d/project_8d.srcs)
   * Create and implement a 4-digit BCD Counter driven by a 1KHz clock using a clock divider
   
-  
+## Project 9
+* [**Project 9**](https://github.com/andynguyen20/fpga_projects/tree/main/project_9/project_9.srcs)
+  * Design, simulate and implement a 4-bit Carry look-ahead adder using a Carry Propagate/Generate Network with structural verilog 
+* [**Project 9a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_9a/project_9a.srcs)
+  * Design and implement an Adder/Subtractor circuit connected to a BCD converter using Double Dabble algorithm on seven segment display
+* [**Project 9b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_9b/project_9b.srcs)
+  * Design and implement a multiplier circuit connected to sseg display using BCD converter from project 9a
+* [**Project 9c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_9c/project_9c.srcs)
+  * Design and implement a comparator circuit connected to sseg display using BCD converter from project 9a
+
+## Project 10
+* [**Project 10**](https://github.com/andynguyen20/fpga_projects/tree/main/project_10/project_10.srcs)
+  * Design and implement ALU
+  | OpCode | Description | Output F |
+| ----- | ----- | ----- |
+| 000 | Addition | A + B |
+| 001 | Increment | A + 1 |
+| 010 | Subtract | A - B |
+| 011 | Multiply | A * B |
+| 100 | Not | not A |
+| 101 | Bit-wise XOR | A XOR B |
+| 110 | Bit-wise OR | A OR B |
+| 111 | Bit-wise AND | A AND B |
