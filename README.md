@@ -124,6 +124,7 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 ## Project 10
 * [**Project 10**](https://github.com/andynguyen20/fpga_projects/tree/main/project_10/project_10.srcs)
   * Design and implement ALU
+  
 | OpCode | Description | Output F |
 | ----- | ----- | ----- |
 | 000 | Addition | A + B |
