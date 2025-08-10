@@ -123,8 +123,8 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 
 ## Project 10
 * [**Project 10**](https://github.com/andynguyen20/fpga_projects/tree/main/project_10/project_10.srcs)
-  * Design and implement ALU
-  
+  * Design and implement an 8-bit ALU that supports the functions shown in the table below
+
 | OpCode | Description | Output F |
 | ----- | ----- | ----- |
 | 000 | Addition | A + B |
