@@ -135,3 +135,6 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 | 101 | Bit-wise XOR | A XOR B |
 | 110 | Bit-wise OR | A OR B |
 | 111 | Bit-wise AND | A AND B |
+
+* [**Project 10a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_10a/project_10a.srcs)
+  * Add zero, negative, carry, and overflow detection to ALU
