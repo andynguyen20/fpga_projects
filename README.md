@@ -142,3 +142,5 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
   ## Project 11
 * [**Project 11**](https://github.com/andynguyen20/fpga_projects/tree/main/project_11/project_11.srcs)
   * Design and simulate a serial adder testing for all possible cases in testbench using Finite State Machine logic
+* [**Project 11**](https://github.com/andynguyen20/fpga_projects/tree/main/project_11/project_11.srcs)
+  * Design, simulate and implement a stopwatch using FSM logic, 
