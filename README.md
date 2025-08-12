@@ -26,11 +26,11 @@ These are my FPGA projects using the Xilinx XC7Z007S Zynq SoC, where I learn to 
 
 ## Project 2 
 * [**Project 2**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2/project_2.srcs)
-  * Reverse engineering first three circuits from [**bit file**](https://github.com/andynguyen20/fpga_projects/tree/main/Blackboard_p2) on FPGA and recreating circuit
+  * Reverse engineering first three circuits from bit file on FPGA and recreating circuit
 * [**Project 2a**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2a/project_2a.srcs)
   * Creating POS duplicate circuit from truth table
 * [**Project 2b**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2b/project_2b.srcs)
-  * Reverse engineering fourth circuit from [**bit file**](https://github.com/andynguyen20/fpga_projects/tree/main/Blackboard_p2) on FPGA and creating circuit
+  * Reverse engineering fourth circuit from bit file on FPGA and creating circuit
 * [**Project 2c**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2c/project_2c.srcs)
   * Creating a new circuit that flashes yellow or red depending on specification (specification is defined in comments of source file)
 * [**Project 2d**](https://github.com/andynguyen20/fpga_projects/tree/main/project_2d/project_2d.srcs)
